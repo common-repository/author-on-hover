@@ -1,0 +1,158 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+ #frhd--auth-wrap {
+    display: none;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border: 1px solid #c1c1c1;
+    position: absolute;
+    width: 400px;
+    z-index: 9;
+}
+#frhd--auth-wrap .frhd--auth-meta {
+    display: flex;
+    flex-flow: row wrap;
+    padding-bottom: 12px;
+    margin-bottom: 10px;
+    justify-content: left;
+    align-items: center;
+    border-bottom: 1px solid #ededed;
+}
+#frhd--auth-wrap .frhd--auth-left {
+    margin-right: 20px;
+}
+#frhd--auth-wrap img {
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+#frhd--auth-wrap .frhd--auth-right {
+    text-align: left;
+}
+#frhd--auth-wrap .frhd--auth-right h5 {
+    margin: 0;
+    padding: 0;
+}
+#frhd--auth-wrap .frhd--auth-right h5 a {
+    font-size: 20px;
+    font-weight: bold;
+}
+#frhd--auth-wrap p {
+    margin-bottom: 0;
+}
+#frhd--auth-wrap .frhd--auth-right i {
+    font-size: 14px;
+    margin-right: 7px;
+    font-style: normal;
+    border: 1px solid #c1c1c1;
+    width: 25px;
+    height: 25px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+#frhd--auth-wrap .frhdaf__aoh-designation {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+#frhd--auth-wrap .frhd--auth-right i:hover {
+    background-color: #c1c1c1;
+}
+#frhd--auth-wrap .frhd--auth-social {
+    margin-top: 5px;
+}
+
+
+/* After Content */
+.frhdaf__aoh-wrapper a {text-decoration: none !important;}
+.frhdaf__aoh-wrapper span,
+.frhdaf__aoh-wrapper p {margin: 0px !important;}
+.frhdaf__aoh-wrapper {
+    background: #f3f3f3;
+    padding: 20px;
+    border-radius: 4px;
+}
+.frhdaf__aoh-top {
+    display: flex;
+    flex-direction: row;
+    column-gap: 25px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgb(193 193 193 / 40%);
+    padding-bottom: 20px;
+}
+.frhdaf__aoh-top-left img {
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    object-fit: cover;
+    object-position: top;
+    width: 110px;
+    height: 110px;
+}
+span.frhdaf__aoh-name a {
+    display: block;
+    font-size: 26px;
+    color: #222222;
+    font-weight: bold;
+}
+.frhdaf__aoh-wrapper .frhdaf__aoh-designation {
+    display: inline-block;
+    padding-bottom: 8px;
+}
+.frhdaf__aoh-social a:not(:last-child) i {
+    margin-right: 5px;
+}
+.frhdaf__aoh-social i {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    font-size: 14px;
+    text-align: center;
+    vertical-align: top;
+    color: #555;
+    border: 1px solid rgb(204 204 204 / 70%);
+    background-color: #f7f7f7;
+    border-radius: 3px;
+}
+.frhdaf__aoh-social i:hover {
+    background-color: #c1c1c1;
+}
+
+/* Posts after content */
+ul.frhd__auth-posts {
+    border-top: 1px solid rgb(193 193 193 / 40%);
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+ul.frhd__auth-posts strong {
+    display: inline-block;
+    font-size: 19px;
+    margin: 7px 0;
+}
+ul.frhd__auth-posts li {
+    list-style: none;
+}
+ul.frhd__auth-posts li > * {
+    display: inline-block;
+}
+ul.frhd__auth-posts a {
+    font-size: 19px;
+}
+ul.frhd__auth-posts h3 {
+    font-size: 19px;
+    margin: 0;
+}
+ul.frhd__auth-posts i {
+    font-size: 17px;
+}
+ul.frhd__auth-posts time {
+    font-size: 15px;
+}

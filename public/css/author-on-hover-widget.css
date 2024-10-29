@@ -1,0 +1,42 @@
+/* FontAwesome Reset */
+.fa, .far, .fas {
+    font-family: "Font Awesome 5 Free";
+}
+.fab {
+    font-family: "Font Awesome 5 Brands";
+}
+
+.frhd__aoh-widget {
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    padding: 20px 5px 10px 5px;
+    border-radius: 4px;
+}
+.frhd__aoh-widget img {
+    width: 120px;
+    max-height: 120px;
+    object-fit: cover;
+    object-position: top;
+    border: 1px solid #c1c1c1;
+    border-radius: 50%;
+	margin-bottom: 10px;
+}
+.frhd__auth-widget-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+    padding-top: 10px;
+    border-top: 1px solid #e3e3e3;
+}
+.frhd__auth-widget-wrap h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+.frhd__auth-widget-designation {
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.frhd__auth-widget-social a:not(:last-child) {
+    margin-right: 10px;
+}
